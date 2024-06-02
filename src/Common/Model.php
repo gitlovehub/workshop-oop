@@ -29,7 +29,7 @@ class Model
     }
 
     // CRUD
-    public function all()
+    public function read()
     {
         return $this->queryBuilder
         ->select('*')
